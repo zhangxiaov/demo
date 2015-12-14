@@ -15,16 +15,28 @@
 
 int csIsEqual(char* self, char* str) {
     if (self == NULL) {
+<<<<<<< HEAD
         return 0;
     }
     size_t strLen = strlen(self);
     if (strLen != strlen(str)) {
         return 0;
+=======
+        return -1;
+    }
+    size_t strLen = strlen(self);
+    if (strLen != strlen(str)) {
+        return -1;
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
     }
     
     for (int i = 0; i < strLen; i++) {
         if (*self++ != *str++) {
+<<<<<<< HEAD
             return 0;
+=======
+            return -1;
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
         }
     }
     
@@ -174,17 +186,23 @@ char* csIntToString(int intVal) {
     return addr;
 }
 
+<<<<<<< HEAD
 int csToInt(char* self) {
     
     return 0;
 }
 
+=======
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 void test () {
     int test = 12306;
 }
 
 void main_cstring() {
+<<<<<<< HEAD
 //void main() {
+=======
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
     char* str = "{{{{{{{{";
 
     char* s2 = csAppend(str, "zhangafafafafa");
@@ -198,5 +216,9 @@ void main_cstring() {
     
     printf("%d\n", csIndexPrefixSkipSpace("prefixffff", "pre"));
     
+<<<<<<< HEAD
     printf("%d\n", csIsEqual("test1", "testc"));
+=======
+    printf("%d\n", csIsEqual("张新伟", "张新伟b"));
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 }

@@ -10,6 +10,11 @@
 		ED0078FA1C07E99D00B87D99 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0078F91C07E99D00B87D99 /* test.m */; };
 		ED0079481C0D976D00B87D99 /* SimpleFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0079471C0D976D00B87D99 /* SimpleFileHandle.m */; };
 		ED00794B1C0D9FE200B87D99 /* FH.m in Sources */ = {isa = PBXBuildFile; fileRef = ED00794A1C0D9FE200B87D99 /* FH.m */; };
+<<<<<<< HEAD
+=======
+		ED0079591C0EF08900B87D99 /* SimpleClientSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0079561C0EF08900B87D99 /* SimpleClientSocket.m */; };
+		ED00795A1C0EF08900B87D99 /* SimpleServerSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0079581C0EF08900B87D99 /* SimpleServerSocket.m */; };
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 		ED00795D1C0FE81800B87D99 /* SimpleHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED00795C1C0FE81800B87D99 /* SimpleHttpRequest.m */; };
 		ED0079771C11314E00B87D99 /* mmap_test.c in Sources */ = {isa = PBXBuildFile; fileRef = ED0079751C11314E00B87D99 /* mmap_test.c */; };
 		ED0079801C151BB000B87D99 /* ZHash.c in Sources */ = {isa = PBXBuildFile; fileRef = ED00797E1C151BB000B87D99 /* ZHash.c */; };
@@ -29,8 +34,11 @@
 		ED8C29581C0446F200778A08 /* Groups.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8C29571C0446F200778A08 /* Groups.m */; };
 		ED8C295B1C044F7300778A08 /* DBData.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8C295A1C044F7300778A08 /* DBData.m */; };
 		EDB95CCD1C06DF1A00B80FB5 /* IDMap.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB95CCC1C06DF1A00B80FB5 /* IDMap.m */; };
+<<<<<<< HEAD
 		EDD1F5101C1D035800332237 /* ZArray.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD1F50E1C1D035800332237 /* ZArray.c */; };
 		EDD214D81C1BBC3F00F82F52 /* ZMap.c in Sources */ = {isa = PBXBuildFile; fileRef = EDD214D61C1BBC3F00F82F52 /* ZMap.c */; };
+=======
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +60,13 @@
 		ED0079471C0D976D00B87D99 /* SimpleFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFileHandle.m; sourceTree = "<group>"; };
 		ED0079491C0D9FE200B87D99 /* FH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FH.h; sourceTree = "<group>"; };
 		ED00794A1C0D9FE200B87D99 /* FH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FH.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		ED0079551C0EF08900B87D99 /* SimpleClientSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleClientSocket.h; path = ../../../app_demo/app_demo/SimpleClientSocket.h; sourceTree = "<group>"; };
+		ED0079561C0EF08900B87D99 /* SimpleClientSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleClientSocket.m; path = ../../../app_demo/app_demo/SimpleClientSocket.m; sourceTree = "<group>"; };
+		ED0079571C0EF08900B87D99 /* SimpleServerSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleServerSocket.h; path = ../../../app_demo/app_demo/SimpleServerSocket.h; sourceTree = "<group>"; };
+		ED0079581C0EF08900B87D99 /* SimpleServerSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SimpleServerSocket.m; path = ../../../app_demo/app_demo/SimpleServerSocket.m; sourceTree = "<group>"; };
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 		ED00795B1C0FE81800B87D99 /* SimpleHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHttpRequest.h; sourceTree = "<group>"; };
 		ED00795C1C0FE81800B87D99 /* SimpleHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHttpRequest.m; sourceTree = "<group>"; };
 		ED0079751C11314E00B87D99 /* mmap_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mmap_test.c; sourceTree = "<group>"; };
@@ -90,10 +105,13 @@
 		ED8C295A1C044F7300778A08 /* DBData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBData.m; sourceTree = "<group>"; };
 		EDB95CCB1C06DF1A00B80FB5 /* IDMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDMap.h; sourceTree = "<group>"; };
 		EDB95CCC1C06DF1A00B80FB5 /* IDMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDMap.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		EDD1F50E1C1D035800332237 /* ZArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZArray.c; sourceTree = "<group>"; };
 		EDD1F50F1C1D035800332237 /* ZArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZArray.h; sourceTree = "<group>"; };
 		EDD214D61C1BBC3F00F82F52 /* ZMap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZMap.c; sourceTree = "<group>"; };
 		EDD214D71C1BBC3F00F82F52 /* ZMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMap.h; sourceTree = "<group>"; };
+=======
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +144,13 @@
 		ED4AA21C1BA918050067350F /* oc_demo */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+=======
+				ED0079551C0EF08900B87D99 /* SimpleClientSocket.h */,
+				ED0079561C0EF08900B87D99 /* SimpleClientSocket.m */,
+				ED0079571C0EF08900B87D99 /* SimpleServerSocket.h */,
+				ED0079581C0EF08900B87D99 /* SimpleServerSocket.m */,
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 				ED4AA21D1BA918050067350F /* main.m */,
 				ED4AA2241BA918670067350F /* Baby.h */,
 				ED4AA2251BA918670067350F /* Baby.m */,
@@ -169,10 +194,13 @@
 				ED00799D1C18280A00B87D99 /* ZThread.h */,
 				ED0079A51C1AA66500B87D99 /* hashmap.c */,
 				ED0079A61C1AA66500B87D99 /* hashmap.h */,
+<<<<<<< HEAD
 				EDD214D61C1BBC3F00F82F52 /* ZMap.c */,
 				EDD214D71C1BBC3F00F82F52 /* ZMap.h */,
 				EDD1F50E1C1D035800332237 /* ZArray.c */,
 				EDD1F50F1C1D035800332237 /* ZArray.h */,
+=======
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 			);
 			path = oc_demo;
 			sourceTree = "<group>";
@@ -233,11 +261,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
+=======
+				ED0079591C0EF08900B87D99 /* SimpleClientSocket.m in Sources */,
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 				ED4AA2291BA918B10067350F /* BabyBaomuXieyi.m in Sources */,
 				ED0079861C15266700B87D99 /* ZDict.c in Sources */,
 				ED00794B1C0D9FE200B87D99 /* FH.m in Sources */,
 				ED00795D1C0FE81800B87D99 /* SimpleHttpRequest.m in Sources */,
+<<<<<<< HEAD
 				EDD214D81C1BBC3F00F82F52 /* ZMap.c in Sources */,
+=======
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 				ED4AA21E1BA918050067350F /* main.m in Sources */,
 				ED8C29581C0446F200778A08 /* Groups.m in Sources */,
 				ED0079771C11314E00B87D99 /* mmap_test.c in Sources */,
@@ -248,10 +283,17 @@
 				ED0079831C1522E600B87D99 /* ZTime.c in Sources */,
 				ED0078FA1C07E99D00B87D99 /* test.m in Sources */,
 				ED0079481C0D976D00B87D99 /* SimpleFileHandle.m in Sources */,
+<<<<<<< HEAD
 				ED4AA22F1BA918E70067350F /* Dog.m in Sources */,
 				ED00799B1C1819E400B87D99 /* ZHttpServer.c in Sources */,
 				ED4AA2261BA918670067350F /* Baby.m in Sources */,
 				EDD1F5101C1D035800332237 /* ZArray.c in Sources */,
+=======
+				ED00795A1C0EF08900B87D99 /* SimpleServerSocket.m in Sources */,
+				ED4AA22F1BA918E70067350F /* Dog.m in Sources */,
+				ED00799B1C1819E400B87D99 /* ZHttpServer.c in Sources */,
+				ED4AA2261BA918670067350F /* Baby.m in Sources */,
+>>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 				ED0079801C151BB000B87D99 /* ZHash.c in Sources */,
 				ED0079A71C1AA66500B87D99 /* hashmap.c in Sources */,
 				ED00799E1C18280A00B87D99 /* ZThread.c in Sources */,
