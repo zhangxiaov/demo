@@ -42,9 +42,9 @@ void* zarrayGet(ZArray* self, int index) {
     return self->data + index;
 }
 
-//void main_array(){
-void main() {
-    
+void main_array(){
+//void main() {
+
     
     ZArray* a = zarrayInit(3, "fafa", "zzz", "333");
 

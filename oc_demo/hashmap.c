@@ -434,12 +434,8 @@ static int free_data(void* data, void *arg) {
     return 0;
 }
 
-<<<<<<< HEAD
 void main_hashmap() {
 //    void main() {
-=======
-void main() {
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
     hmap_t map;
     userdata  *dat;
     userelem  *el;
@@ -449,11 +445,7 @@ void main() {
     map = hashmap_create();
     
     int s = ztimeSince1970();
-<<<<<<< HEAD
     for (int i = 0; i < 2000000; i++) {
-=======
-    for (int i = 0; i < 14000000; i++) {
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
         hashmap_put(map, csAppendInt("tiankong", i), "value");
     }
     
@@ -480,19 +472,16 @@ void main() {
 //        assert(ret==HMAP_S_OK);
 //    }
     printf("time = %d\n", ztimeSince1970() - s);
-<<<<<<< HEAD
 //    printf("hashmap_size: %d\n", hashmap_size(map));
 
     
     /* 删除整个 map */
 //    hashmap_destroy(map, free_data, 0);
-=======
     printf("hashmap_size: %d\n", hashmap_size(map));
 
     
     /* 删除整个 map */
     hashmap_destroy(map, free_data, 0);
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
     
 //    _CrtDumpMemoryLeaks();
 }

@@ -213,7 +213,7 @@ void* zmapGet(ZMap* self, char* key) {
 
 void main_zmap() {
 //void main() {
-    
+
     char* str = "fafafafafaf";
     printf("%p\n", str);
     
@@ -227,10 +227,10 @@ void main_zmap() {
     
     
     
-//    int s = ztimeSince1970();
-//    for (int i = 0; i < 200000; i++) {
-//        zmapPut(map, csAppendInt("tiankong", i), "value");
-//    }
-//    
-//    printf("%d, %s\n", ztimeSince1970() - s, zmapGet(map, "tiankong3333"));
+    int s = ztimeSince1970();
+    for (int i = 0; i < 200000; i++) {
+        zmapPut(map, csAppendInt("tiankong", i), "value");
+    }
+//
+    printf("%d, %s\n", ztimeSince1970() - s, zmapGet(map, "tiankong3333"));
 }

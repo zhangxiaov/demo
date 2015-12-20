@@ -18,9 +18,7 @@ char* csAppend(char* self, char* str);
 char* csAppendInt(char* self, int intVal);
 char* csIntToString(int intVal);
 int csIsEqual(char* self, char* str);
-<<<<<<< HEAD
+
 int csToInt(char* self);
-=======
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 
 #endif /* CString_h */

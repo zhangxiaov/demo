@@ -13,30 +13,56 @@
 #include <ctype.h>
 #include <stdlib.h>
 
+int csSearchSunday(char* self, char* smallChars) {
+    size_t bigCharsLen = strlen(self);
+    size_t smallCharLen = strlen(smallChars);
+    
+    int ibig = 0;
+    int ismall = 0;
+    
+    int tbig = 0;
+    int tsmall = 0;
+    
+    int st = 0;
+    int count = 0;
+    while (ibig < bigCharsLen) {
+        if (self[ibig] == smallChars[ismall]) {
+            ++ibig;
+            ++ismall;
+        }else {
+            //移动小串＋1
+            //这个字符是否在小串里
+            char checkChar = self[st + smallCharLen];
+            for (int i = 0; i < smallCharLen; i++) {
+                if (checkChar == smallChars[i]) {
+                    ibig -= i;
+                    break;
+                }
+            }
+            
+            ibig += 1;
+        }
+        
+        if (ismall == smallCharLen - 1) {
+            return (int)(ibig - smallCharLen);
+        }
+    }
+    
+    return -1;
+}
+
 int csIsEqual(char* self, char* str) {
     if (self == NULL) {
-<<<<<<< HEAD
-        return 0;
-    }
-    size_t strLen = strlen(self);
-    if (strLen != strlen(str)) {
-        return 0;
-=======
         return -1;
     }
     size_t strLen = strlen(self);
     if (strLen != strlen(str)) {
         return -1;
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
     }
     
     for (int i = 0; i < strLen; i++) {
         if (*self++ != *str++) {
-<<<<<<< HEAD
-            return 0;
-=======
             return -1;
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
         }
     }
     
@@ -186,39 +212,35 @@ char* csIntToString(int intVal) {
     return addr;
 }
 
-<<<<<<< HEAD
+
 int csToInt(char* self) {
     
     return 0;
 }
 
-=======
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
 void test () {
     int test = 12306;
 }
 
-void main_cstring() {
-<<<<<<< HEAD
-//void main() {
-=======
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
-    char* str = "{{{{{{{{";
-
-    char* s2 = csAppend(str, "zhangafafafafa");
-
-    printf("%s\n", s2);
-    printf("%s\n", str);
+//void main_cstring() {
+void main() {
+//    char* str = "{{{{{{{{";
+//
+//    char* s2 = csAppend(str, "zhangafafafafa");
+//
+//    printf("%s\n", s2);
+//    printf("%s\n", str);
+//    
+//    printf("%s\n", csIntToString(-24343434));
+//    
+//    printf("%s\n", csAppendInt(str, -4434343));
+//    
+//    printf("%d\n", csIndexPrefixSkipSpace("prefixffff", "pre"));
+//    
+//    printf("%d\n", csIsEqual("test1", "testc"));
+//    printf("%d\n", csIsEqual("张新伟", "张新伟b"));
     
-    printf("%s\n", csIntToString(-24343434));
+    char* str2 = "zhangxinweitest";
     
-    printf("%s\n", csAppendInt(str, -4434343));
-    
-    printf("%d\n", csIndexPrefixSkipSpace("prefixffff", "pre"));
-    
-<<<<<<< HEAD
-    printf("%d\n", csIsEqual("test1", "testc"));
-=======
-    printf("%d\n", csIsEqual("张新伟", "张新伟b"));
->>>>>>> 93111ae4fd540c7e13021592a0586d930243a041
+    printf("index %d\n", csSearchSunday(str2, "test"));
 }
